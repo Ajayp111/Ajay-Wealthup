@@ -2,7 +2,7 @@ import axios from "axios";
 
 //backend url
 const instance = axios.create({
-  baseURL: "http://localhost:5051",
+  baseURL: "https://ajay-wealthup-2y65.vercel.app/",
 });
 
 export const getCode = async () => {
